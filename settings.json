@@ -1,0 +1,49 @@
+{
+      "editor.renderIndentGuides": true,
+      "editor.renderControlCharacters": false,
+      "editor.rulers": [
+        80,
+        100
+      ],
+      "editor.trimAutoWhitespace": false,
+      "files.trimTrailingWhitespace": true,
+      "files.insertFinalNewline": true,
+      "files.associations": {
+        ".gitignore": "shellscript"
+      },
+      "emmet.syntaxProfiles": { "javascript": "jsx" },
+      "window.title": "${activeEditorMedium}${separator}${rootName}",
+      "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#ec0"
+      },
+      "window.zoomLevel": 0,
+      "liveServer.settings.donotShowInfoMsg": true,
+      "terminal.integrated.shell.osx": "/bin/zsh",
+      "workbench.startupEditor": "newUntitledFile",
+      "prettier.semi": false,
+      "explorer.confirmDelete": false,
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "prettier.jsxSingleQuote": true,
+      "prettier.singleQuote": true,
+      "editor.formatOnSave": true,
+      "editor.tabCompletion": "on",
+      // "ruby.rubocop.executePath": "/Users/jan/.rvm/gems/ruby-2.6.3/bin/rubocop",
+      // "ruby.rubocop.onSave": true,
+      // "ruby.useLanguageServer": true,
+      "ruby.lint": {
+        "reek": true,
+        "rubocop": true,
+        "ruby": true, //Runs ruby -wc
+        "fasterer": true,
+        "debride": true,
+        "ruby-lint": true
+        // "ruby": {
+        //   "unicode": true //Runs ruby -wc -Ku
+        // }
+      },
+    "ruby.lintDebounceTime": 500,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "One Dark Pro Monokai Darker",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false
+    }
